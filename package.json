@@ -10,19 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tzkhan/pr-update-action.git"
+    "url": "git+https://github.com/aumni-fund/tool-pr-update-gh-action.git"
   },
   "keywords": [
     "GitHub",
     "Actions",
     "PullRequest"
   ],
-  "author": "Tamim Khan",
+  "author": "Brannon Lucas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tzkhan/pr-update-action/issues"
+    "url": "https://github.com/aumni-fund/tool-pr-update-gh-action/issues"
   },
-  "homepage": "https://github.com/tzkhan/pr-update-action/#readme",
+  "homepage": "https://github.com/aumni-fund/tool-pr-update-gh-action/#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^5.1.1"
