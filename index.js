@@ -71,6 +71,7 @@ async function run() {
         : headBranchName;
       core.info(`Head branch: ${headBranch}`);
 
+      // test
       const headMatches = headBranch.match(new RegExp(headBranchRegex));
       if (!headMatches) {
         core.setFailed("Head branch name does not match given regex");
@@ -175,7 +176,7 @@ async function run() {
     }
 
     const octokit = github.getOctokit(inputs.token);
-    const response = await octokit.pulls.update(request);
+    const response = await octokit.rest.pulls.update(request);
 
     core.info(`Response: ${response.status}`);
     if (response.status !== 200) {
