@@ -71,6 +71,7 @@ async function run() {
         : headBranchName;
       core.info(`Head branch: ${headBranch}`);
 
+      // test
       const headMatches = headBranch.match(new RegExp(headBranchRegex));
       if (!headMatches) {
         core.setFailed("Head branch name does not match given regex");
